@@ -1,0 +1,36 @@
+.footer {
+  height: 57px;
+  background: #1c3b55;
+}
+
+.footer div {
+  color: #ffffff;
+  margin: 0px 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer div p {
+  width: 300px;
+}
+
+.footer div p:last-child {
+  text-align: right;
+}
+
+.footer div p:first-child {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.footer div p:nth-child(2) {
+  text-align: center;
+}
+/*# sourceMappingURL=footer.module.css.map */

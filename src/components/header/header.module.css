@@ -1,0 +1,18 @@
+.header {
+  height: 72px;
+  background: #3a80ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header a {
+  font-size: 40px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px 0px 0px 130px;
+}
+/*# sourceMappingURL=header.module.css.map */

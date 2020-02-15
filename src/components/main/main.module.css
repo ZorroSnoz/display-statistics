@@ -1,0 +1,500 @@
+.container .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+.container .button_white {
+  color: #3a80ba;
+  background: #ffffff;
+}
+
+.container .button_blue {
+  background: #3a80ba;
+  color: #ffffff;
+}
+
+.container .header {
+  background-image: url(../../images/main/header-background.png);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .header .header_image_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.container .header .header_image_container img {
+  margin-top: 72px;
+}
+
+.container .header .header_info_container {
+  width: 50%;
+}
+
+.container .header .header_info_container .logo {
+  font-size: 40px;
+  margin-top: 24px;
+  margin-left: 130px;
+  color: #ffffff;
+}
+
+.container .header h1 {
+  font-weight: 400;
+  font-size: 48px;
+  margin-top: 48px;
+  color: #ffffff;
+  width: 600px;
+  margin-left: 130px;
+}
+
+.container .header h1 span {
+  font-weight: 800;
+}
+
+.container .header .header_discription {
+  font-size: 20px;
+  margin-left: 130px;
+  margin-top: 24px;
+  width: 600px;
+  color: #ffffff;
+}
+
+.container .header .header_button {
+  margin-left: 130px;
+  margin-top: 32px;
+  width: 154px;
+  height: 56px;
+}
+
+.container .advantage_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .advantage_container .advantage_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0px;
+}
+
+.container .advantage_container .advantage_header h2 {
+  width: 500px;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.container .advantage_container .advantage_header h2 span {
+  font-weight: bold;
+}
+
+.container .advantage_container .advantage_header p {
+  margin-top: 24px;
+  font-size: 20px;
+  text-align: center;
+  color: #7e7e7e;
+  width: 780px;
+  margin-bottom: inherit;
+  line-height: 142%;
+}
+
+.container .advantage_container .advantage_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 40px;
+}
+
+.container .advantage_container .advantage_content div {
+  width: 380px;
+  height: 323px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 32px;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  margin: 0px 10px;
+}
+
+.container .advantage_container .advantage_content div img {
+  height: 96px;
+  width: 106px;
+}
+
+.container .advantage_container .advantage_content div h4 {
+  font-size: 24px;
+  color: #1a1a1a;
+}
+
+.container .advantage_container .advantage_content div p {
+  font-size: 16px;
+  width: 316px;
+  text-align: center;
+  color: #7e7e7e;
+  line-height: 142%;
+}
+
+.container .start_app_container {
+  height: 391px;
+  background: linear-gradient(93.19deg, #255d8b 2.29%, #3a80ba 96.79%);
+  margin-top: 119px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .start_app_container .start_app_info {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .start_app_container .start_app_info h3 {
+  margin: 80px 0px 0px 130px;
+  font-size: 32px;
+  color: #ffffff;
+  width: 500px;
+}
+
+.container .start_app_container .start_app_info p {
+  margin: 16px 0px 0px 130px;
+  font-size: 16px;
+  color: #ffffff;
+  width: 580px;
+  line-height: 142%;
+}
+
+.container .start_app_container .start_app_info .start_app_button {
+  margin-left: 130px;
+  margin-top: 24px;
+  width: 221px;
+  height: 56px;
+}
+
+.container .start_app_container img {
+  margin-top: -38px;
+}
+
+.container .pricing_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .pricing_container .pricing_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .pricing_container .pricing_header h3 {
+  margin: 80px 0px 0px 0px;
+  font-size: 32px;
+  width: 580px;
+  font-weight: normal;
+  color: #1a1a1a;
+}
+
+.container .pricing_container .pricing_header h3 span {
+  font-weight: bold;
+}
+
+.container .pricing_container .pricing_header p {
+  margin: 24px 0px 0px 0px;
+  font-size: 20px;
+  line-height: 142%;
+  color: #7e7e7e;
+  width: 660px;
+}
+
+.container .pricing_container .pricing_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .pricing_container .pricing_content div {
+  width: 380px;
+  height: 627px;
+  border-radius: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #f1f1f1;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  margin: 32px 10px 0px 10px;
+}
+
+.container .pricing_container .pricing_content div h3 {
+  margin: 24px 0px 0px 0px;
+  font-size: 24px;
+  color: #1a1a1a;
+}
+
+.container .pricing_container .pricing_content div .price_foto {
+  margin: 19px 0px 0px 0px;
+}
+
+.container .pricing_container .pricing_content div .pricing_price {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 16px 0px 0px 0px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.container .pricing_container .pricing_content div .line {
+  margin: 24px 0px 0px 0px;
+}
+
+.container .pricing_container .pricing_content div .price_discription {
+  margin: 24px 0px 0px 0px;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  color: #7e7e7e;
+  width: 200px;
+}
+
+.container .pricing_container .pricing_content div .price_button {
+  margin: 24px 0px 0px 0px;
+  width: 220px;
+  height: 56px;
+}
+
+.container .pricing_container .pricing_content div:hover {
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+.container .pricing_container .pricing_content div:hover .pricing_price {
+  color: #3a80ba;
+}
+
+.container .pricing_container .pricing_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 32px 0px 0px 0px;
+}
+
+.container .pricing_container .pricing_contact p a {
+  font-size: 20px;
+  line-height: 142%;
+}
+
+.container .pricing_container .pricing_contact p {
+  color: #7e7e7e;
+}
+
+.container .pricing_container .pricing_contact a {
+  color: #3a80ba;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.container .footer_container {
+  margin: 48px 0px 0px 0px;
+  height: 184px;
+  background-image: url(../../images/main/background-footer.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .footer_container .footer_input {
+  margin: 26px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 579px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
+
+.container .footer_container .footer_input input {
+  border: none;
+  margin-left: 19px;
+  height: inherit;
+  width: 300px;
+  font-size: 16px;
+  line-height: 162%;
+  color: #b9b9b9;
+  background: none;
+}
+
+.container .footer_container .footer_input input:focus {
+  outline: none;
+}
+
+.container .footer_container .footer_input input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 162%;
+  color: #b9b9b9;
+  outline: none;
+}
+
+.container .footer_container .footer_input input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 162%;
+  color: #b9b9b9;
+  outline: none;
+}
+
+.container .footer_container .footer_input input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 162%;
+  color: #b9b9b9;
+  outline: none;
+}
+
+.container .footer_container .footer_input input::placeholder {
+  font-size: 16px;
+  line-height: 162%;
+  color: #b9b9b9;
+  outline: none;
+}
+
+.container .footer_container .footer_input button {
+  margin-right: 4px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 176px;
+  height: 56px;
+}
+
+.container .footer_container .footer_info_container {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .footer_container .footer_info_container .logo_footer {
+  font-size: 32px;
+}
+
+.container .footer_container .footer_info_container p {
+  color: #ffffff;
+  width: 300px;
+  margin: 0px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=main.module.css.map */

@@ -1,0 +1,25 @@
+$white: #ffffff;
+.footer {
+  height: 57px;
+  background: #1c3b55;
+  div {
+    color: $white;
+    margin: 0px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      width: 300px;
+    }
+    p:last-child {
+      text-align: right;
+    }
+    p:first-child {
+      font-size: 24px;
+      margin: 0px;
+    }
+    p:nth-child(2) {
+      text-align: center;
+    }
+  }
+}

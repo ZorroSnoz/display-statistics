@@ -1,0 +1,145 @@
+.container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .content .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 16px 0px 0px 130px;
+}
+
+.container .content .navigation a {
+  text-decoration: none;
+}
+
+.container .content .navigation a:visited {
+  color: #cccccc;
+}
+
+.container .content .navigation p {
+  margin: 0px 8px 0px 8px;
+}
+
+.container .content .navigation a,
+.container .content .navigation p {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.container .content .navigation .current_page {
+  color: #3a80ba !important;
+}
+
+.container .content h1 {
+  margin: 24px 0px 0px 130px;
+  font-size: 32px;
+  color: #1a1a1a;
+}
+
+.container .content .users_table_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 16px 130px 0px 130px;
+}
+
+.container .content .users_table_container table {
+  width: -webkit-fill-available;
+  margin-bottom: 0px;
+}
+
+.container .content .users_table_container table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.container .content .users_table_container table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.container .content .users_table_container table tr:nth-child(odd) {
+  background: #f1f1f1;
+}
+
+.container .content .users_table_container .table_item {
+  background: #fbfbfb;
+}
+
+.container .content .users_table_container .table_item td {
+  font-size: 16px;
+  padding: 0px 24px 0px 24px;
+  height: 32px;
+}
+
+.container .content .users_table_container .text_align_center {
+  text-align: center;
+}
+
+.container .content .users_table_container .header_table {
+  height: 48px;
+  background: #3a80ba !important;
+}
+
+.container .content .users_table_container .header_table td {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0px 24px 0px 24px;
+}
+
+.container .content .users_table_container .header_table .id {
+  border-top-left-radius: 8px;
+  text-align: center;
+}
+
+.container .content .users_table_container .header_table .total_views {
+  border-top-right-radius: 8px;
+}
+
+.container .content .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 24px 0px 24px 0px;
+}
+
+.container .content .pagination .active_page {
+  background: #3A80BA;
+  color: #ffffff;
+}
+
+.container .content .pagination div {
+  margin: 0px 20px;
+}
+
+.container .content .pagination p {
+  margin: 0px 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #f1f1f1;
+  border-radius: 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=stats.module.css.map */

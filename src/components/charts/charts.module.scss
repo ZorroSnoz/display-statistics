@@ -1,0 +1,32 @@
+.container {
+  .content {
+    .navigation {
+      display: flex;
+      align-items: center;
+      margin: 16px 0px 0px 130px;
+      a {
+        text-decoration: none;
+      }
+      a:visited {
+        color: #cccccc;
+      }
+      p {
+        margin: 0px 8px 0px 8px;
+      }
+      a,
+      p {
+        font-size: 16px;
+        color: #cccccc;
+      }
+      .current_page {
+        color: #3a80ba !important;
+        margin: 0px;
+      }
+    }
+    h1 {
+      margin: 24px 0px 0px 130px;
+      font-size: 32px;
+      color: #1a1a1a;
+    }
+  }
+}

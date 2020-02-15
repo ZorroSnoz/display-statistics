@@ -1,0 +1,107 @@
+$white: #ffffff;
+
+.container {
+  .content {
+    display: flex;
+    flex-direction: column;
+    .navigation {
+      display: flex;
+      align-items: center;
+      margin: 16px 0px 0px 130px;
+      a {
+        text-decoration: none;
+      }
+      a:visited {
+        color: #cccccc;
+      }
+      p {
+        margin: 0px 8px 0px 8px;
+      }
+      a,
+      p {
+        font-size: 16px;
+        color: #cccccc;
+      }
+      .current_page {
+        color: #3a80ba !important;
+      }
+    }
+    h1 {
+      margin: 24px 0px 0px 130px;
+      font-size: 32px;
+      color: #1a1a1a;
+    }
+    .users_table_container {
+      display: flex;
+      margin: 16px 130px 0px 130px;
+      table {
+        width: -webkit-fill-available;
+        margin-bottom: 0px;
+        tr:last-child {
+          td:first-child {
+            border-bottom-left-radius: 8px;
+          }
+          td:last-child {
+            border-bottom-right-radius: 8px;
+          }
+        }
+        tr:nth-child(odd) {
+          background: #f1f1f1;
+        }
+      }
+
+      .table_item {
+        background: #fbfbfb;
+        td {
+          font-size: 16px;
+          padding: 0px 24px 0px 24px;
+          height: 32px;
+        }
+      }
+      .text_align_center {
+        text-align: center;
+      }
+      .header_table {
+        height: 48px;
+        background: #3a80ba !important;
+        td {
+          color: $white;
+          font-size: 16px;
+          padding: 0px 24px 0px 24px;
+        }
+        .id {
+          border-top-left-radius: 8px;
+          text-align: center;
+        }
+
+        .total_views {
+          border-top-right-radius: 8px;
+        }
+      }
+    }
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 24px 0px 24px 0px;
+      .active_page {
+        background: #3A80BA;
+        color: $white;
+      }
+      div {
+        margin: 0px 20px;  
+      }
+      p {
+          margin: 0px 4px;
+        display: flex;
+        width: 48px;
+        height: 48px;
+        border: 2px solid #f1f1f1;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+}
