@@ -1,5 +1,6 @@
 .container {
   .content {
+    margin-bottom: 48px;
     .navigation {
       display: flex;
       align-items: center;
@@ -27,6 +28,14 @@
       margin: 24px 0px 0px 130px;
       font-size: 32px;
       color: #1a1a1a;
+    }
+    h2 {
+      margin: 24px 0px 0px 130px;
+      font-size: 24px;
+      color: #1a1a1a;
+    }
+    h2:last-child {
+      margin-top: 32px;
     }
   }
 }
