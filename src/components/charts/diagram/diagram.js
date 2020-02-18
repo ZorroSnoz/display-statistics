@@ -2,12 +2,12 @@ import React from 'react';
 import { Line } from 'react-chartjs-2';
 import s from './diagram.module.css';
 
-let Diagram = (props) => {
+let Diagram = ({statistic, statisticDate}) => {
 
     const data = {
-        labels: ['Now', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+        labels: statisticDate,
         datasets: [{
-            data: [12, 19, 3, 5, 2, 3, 10, 6],
+            data: statistic,
             backgroundColor: 'rgba(0, 0, 0, 0.0)',
             borderColor: [
                 '#3A80BA',

@@ -7,15 +7,15 @@ import { NavLink } from 'react-router-dom';
 import Diagram from './diagram/diagram';
 import { getStatisticThunk } from '../../redux/charts-reduser';
 
-let Charts = ({getStatisticThunk}) => {
-
-    let userId = document.location.pathname.slice(6)
+let Charts = ({ getStatisticThunk, chartsData }) => {
 
     useEffect(() => {
-        getStatisticThunk(userId);
+        getStatisticThunk(document.location.pathname.slice(6));
     }, []);
 
-    
+
+
+
     return <div className={s.container}>
         <Header />
         <div className={s.content}>
@@ -24,14 +24,20 @@ let Charts = ({getStatisticThunk}) => {
                 <p>></p>
                 <NavLink to='/stats'>User satistics</NavLink>
                 <p>></p>
-                <p className={s.current_page}>Samuel Frost</p>
+                <p className={s.current_page}>{chartsData.name}</p>
             </div>
-            <h1>Samuel Frost</h1>
+            <h1>{chartsData.name}</h1>
             <h2>Clicks</h2>
-            <Diagram />
-            <h2>Vievs</h2>
-            <Diagram />
-            
+            <Diagram
+                statistic={chartsData.statisticClicks}
+                statisticDate={chartsData.statisticDate}
+            />
+            <h2>Views</h2>
+            <Diagram
+                statistic={chartsData.statisticViews}
+                statisticDate={chartsData.statisticDate}
+            />
+
         </div>
         <Footer />
     </div>

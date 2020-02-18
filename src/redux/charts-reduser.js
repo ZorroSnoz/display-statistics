@@ -3,9 +3,10 @@ import apiExpress from '../api_express/api';
 const GET_STATISTIC = 'GET_STATISTIC';
 
 let initialState = {
-    first_name: null,
-    last_name: null,
-statistic: []
+name: null,
+statisticClicks: [],
+statisticViews: [],
+statisticDate: []
 };
 
 const chartsReduser = (state = initialState, action) => {
@@ -13,12 +14,11 @@ const chartsReduser = (state = initialState, action) => {
         case GET_STATISTIC: {
          
             let newState = {
-                statistic: action.data.statistic,
-                first_name: action.data.user.first_name,
-                last_name: action.data.user.last_name,
-                user: action.data.user
-                }
-                console.log(newState)
+                name: action.data.name,
+                statisticClicks: action.data.statisticClicks,
+                statisticViews: action.data.statisticViews,
+                statisticDate: action.data.statisticDate           
+                };
             return newState;
         }
         default: {
