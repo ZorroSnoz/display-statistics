@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import StatsItem from './table-item/table-item';
-import { getUsersThunk } from '../../redux/stats-reduser';
+import { getUsersThunk} from '../../redux/stats-reduser';
 import Stats from './stats';
+
+
 
 
 let StatsContainer = ({ getUsersThunk, statsData }) => {

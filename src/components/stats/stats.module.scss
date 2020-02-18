@@ -52,6 +52,7 @@ $white: #ffffff;
 
       .table_item {
         background: #fbfbfb;
+        cursor: pointer;
         td {
           font-size: 16px;
           padding: 0px 24px 0px 24px;
@@ -68,6 +69,7 @@ $white: #ffffff;
           color: $white;
           font-size: 16px;
           padding: 0px 24px 0px 24px;
+          white-space: nowrap;
         }
         .id {
           border-top-left-radius: 8px;
@@ -79,29 +81,7 @@ $white: #ffffff;
         }
       }
     }
-    .pagination {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 24px 0px 24px 0px;
-      .active_page {
-        background: #3A80BA;
-        color: $white;
-      }
-      div {
-        margin: 0px 20px;  
-      }
-      p {
-          margin: 0px 4px;
-        display: flex;
-        width: 48px;
-        height: 48px;
-        border: 2px solid #f1f1f1;
-        border-radius: 8px;
-        justify-content: center;
-        align-items: center;
-      }
-    }
+
   }
 
 }

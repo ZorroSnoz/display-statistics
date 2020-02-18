@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import s from './charts.module.css';
 import { NavLink } from 'react-router-dom';
 import Diagram from './diagram/diagram';
+import { getStatisticThunk } from '../../redux/charts-reduser';
 
-let Charts = (props) => {
+let Charts = ({getStatisticThunk}) => {
 
+    let userId = document.location.pathname.slice(6)
+
+    useEffect(() => {
+        getStatisticThunk(userId);
+    }, []);
+
+    
     return <div className={s.container}>
         <Header />
         <div className={s.content}>
@@ -28,4 +37,11 @@ let Charts = (props) => {
     </div>
 };
 
-export default Charts;
+let mapStateToProps = (state) => {
+    return {
+        chartsData: state.chartsPage
+    }
+};
+
+
+export default connect(mapStateToProps, { getStatisticThunk })(Charts);

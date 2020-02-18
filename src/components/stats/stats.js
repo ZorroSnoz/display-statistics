@@ -1,14 +1,12 @@
 import React from 'react';
 import s from './stats.module.css';
 import { NavLink } from 'react-router-dom';
-import green_arrow from '../../images/stats/arrow-green.png';
-import blue_arrow from '../../images/stats/arrow-blue.png';
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import Preloader from '../preloader/preloader';
+import PaginationContainer from './pagination/pagination-container';
 
 let Stats = ({ statsItems }) => {
-
 
     return <div className={s.container} >
         <Header />
@@ -36,16 +34,7 @@ let Stats = ({ statsItems }) => {
                         {statsItems}
                     </table>
                 </div>}
-
-            <div className={s.pagination}>
-                <div><img alt='Greeb arrow' src={green_arrow} /></div>
-                <p className={s.active_page}>1</p>
-                <p>2</p>
-                <p>3</p>
-                <p>4</p>
-                <p>5</p>
-                <div><img alt='Blue arrow' src={blue_arrow} /></div>
-            </div>
+<PaginationContainer />
         </div>
         <Footer />
     </div>

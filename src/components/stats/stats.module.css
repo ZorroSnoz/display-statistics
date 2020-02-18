@@ -72,6 +72,7 @@
 
 .container .content .users_table_container .table_item {
   background: #fbfbfb;
+  cursor: pointer;
 }
 
 .container .content .users_table_container .table_item td {
@@ -93,6 +94,7 @@
   color: #ffffff;
   font-size: 16px;
   padding: 0px 24px 0px 24px;
+  white-space: nowrap;
 }
 
 .container .content .users_table_container .header_table .id {
@@ -102,44 +104,5 @@
 
 .container .content .users_table_container .header_table .total_views {
   border-top-right-radius: 8px;
-}
-
-.container .content .pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 24px 0px 24px 0px;
-}
-
-.container .content .pagination .active_page {
-  background: #3A80BA;
-  color: #ffffff;
-}
-
-.container .content .pagination div {
-  margin: 0px 20px;
-}
-
-.container .content .pagination p {
-  margin: 0px 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 48px;
-  height: 48px;
-  border: 2px solid #f1f1f1;
-  border-radius: 8px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 /*# sourceMappingURL=stats.module.css.map */

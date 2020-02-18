@@ -11,7 +11,7 @@ let App = () => {
       <div className="App">
         <Route path='/' exact render={() => <Main />} />
         <Route path='/stats' render={() => <StatsContainer />} />
-        <Route path='/charts' render={() =>  <Charts />} />      
+        <Route path='/user' render={() =>  <Charts />} />      
       </div>
     </BrowserRouter>
   );
