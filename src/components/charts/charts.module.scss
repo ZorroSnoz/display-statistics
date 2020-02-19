@@ -24,6 +24,50 @@
         margin: 0px;
       }
     }
+    .selectedDiapazonContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .selectors {
+        margin-right: 130px;
+        margin-top: 34px;
+        display: flex;
+        align-items: center;
+        div{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+
+        p {
+          margin: 0px;
+          margin-right: 10px;
+        }
+        span {
+          display: inline-block;
+          padding: 10px;
+          border: solid 2px #3a80ba;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+        .errorSpan {
+          border: solid 2px #e95870;
+        }
+      }
+      select {
+        
+        margin-right: 20px;
+        border-radius: 8px;
+        border-color: #cccccc;
+        padding: 5px 10px;
+        color: #1a1a1a;
+        outline:none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+    }
     h1 {
       margin: 24px 0px 0px 130px;
       font-size: 32px;
@@ -36,6 +80,50 @@
     }
     h2:last-child {
       margin-top: 32px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    .content {
+padding: 0px 10px;
+      .navigation {
+a, p {
+  font-size: 12px;
+}
+        margin: 16px 0px 0px 0px;
+
+      }
+      .selectedDiapazonContainer {
+        display: flex;
+        flex-direction: column;
+        .selectors {
+          margin-right: 0px;
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+          span {
+            margin-top: 10px;
+          }
+          select {
+            margin: 3px;
+          }
+          p {
+            margin: 3px;
+          }
+        }
+
+      }
+      h1 {
+        margin: 24px 0px 0px 0px;
+        align-self: flex-start;
+      }
+      h2 {
+        margin: 24px 0px 0px 0px;
+      }
+
     }
   }
 }

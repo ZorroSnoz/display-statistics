@@ -105,4 +105,19 @@
 .container .content .users_table_container .header_table .total_views {
   border-top-right-radius: 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .container .content {
+    padding: 0px 20px;
+  }
+  .container .content .navigation {
+    margin: 16px 0px 0px 0px;
+  }
+  .container .content h1 {
+    margin: 24px 0px 0px 0px;
+  }
+  .container .content .users_table_container {
+    margin: 16px 0px 0px 0px;
+  }
+}
 /*# sourceMappingURL=stats.module.css.map */

@@ -23,3 +23,25 @@ $white: #ffffff;
     }
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: max-content;
+    div {
+      
+      display: flex;
+      flex-direction: column;
+      p {
+        margin: 10px !important;
+        text-align: center !important;
+      }
+      p:first-child {
+        margin-top: 20px;
+      }
+      p:last-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

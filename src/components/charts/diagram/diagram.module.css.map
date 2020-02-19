@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,MAAM,EAAE,oBAAoB;CAC/B",
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,MAAM,EAAE,oBAAoB;CAC/B;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,kBAAkB,CAAC;IACnB,MAAM,EAAE,gBAAgB;GACvB",
     "sources": [
         "diagram.module.scss"
     ],

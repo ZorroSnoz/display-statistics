@@ -33,4 +33,31 @@
 .footer div p:nth-child(2) {
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer div p {
+    margin: 10px !important;
+    text-align: center !important;
+  }
+  .footer div p:first-child {
+    margin-top: 20px;
+  }
+  .footer div p:last-child {
+    margin-bottom: 20px;
+  }
+}
 /*# sourceMappingURL=footer.module.css.map */

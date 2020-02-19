@@ -81,7 +81,26 @@ $white: #ffffff;
         }
       }
     }
-
   }
+}
 
+$mobileScreen: 768px;
+$widthPadding: 328px;
+
+@media screen and (max-width: 768px) {
+  .container {
+
+    .content {
+      padding: 0px 20px;
+      .navigation {
+        margin: 16px 0px 0px 0px;
+      }
+      h1 {
+        margin: 24px 0px 0px 0px;
+      }
+      .users_table_container {
+        margin: 16px 0px 0px 0px;
+      }
+    }
+  }
 }

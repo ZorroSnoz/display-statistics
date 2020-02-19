@@ -4,31 +4,23 @@ import s from './diagram.module.css';
 
 let Diagram = ({statistic, statisticDate}) => {
 
+    let borderArr = [];
+    for (let i = 0; i < statistic.length; i++) {
+        if (i === 0 || i === statistic.length - 1) {
+            borderArr.push('#3A80BA');
+        } else {
+            borderArr.push('rgba(0, 0, 0, 0.0)');
+        }
+         
+    }
+
     const data = {
         labels: statisticDate,
         datasets: [{
             data: statistic,
             backgroundColor: 'rgba(0, 0, 0, 0.0)',
-            borderColor: [
-                '#3A80BA',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                '#3A80BA'
-            ],
-            pointBorderColor: [
-                '#3A80BA',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                'rgba(0, 0, 0, 0.0)',
-                '#3A80BA'
-            ],
+            borderColor: borderArr,
+            pointBorderColor: borderArr,
             pointBorderWidth: 8,
             borderWidth: 4,
             borderColor: '#3A80BA'
