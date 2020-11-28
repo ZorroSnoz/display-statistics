@@ -1,9 +1,8 @@
-Переглянути SPA можна за посиланням - https://snozartyr.com/test-task/bitmedia/
-(через хостинг можуть не працювати роути для юзерів, на локальній машині все працює)
+Test project for one of the jobs.
+Small SPA for displaying statistics. Diagrams be present. Data is stored in JSON files from API - github.com/ZorroSnoz/display-statistics-backend
 
-Додаток побудований на функціональних компонентах (також можу працювати з класовими)
-з урахуванням FLUX архітектури.
-Для контролю стану використовувався redux, сервер працює з допомогою express.
-
-Використовувались модульні стилі, препроцесор scss, є адаптивність на всіх сторінках крім таблички статистики users.
-
+Technology stack:
+- React
+- Redux
+- Axios
+- SCSS
